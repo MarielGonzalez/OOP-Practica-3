@@ -1,0 +1,83 @@
+> Una **recta** es una figura geométrica delimitada por dos puntos.
+> 
+> Una **circunferencia** es una figura geométrica que se caracteriza por tener un punto céntrico.
+> 
+> Si una recta va de un extremo a otro pasando por el punto céntrico de una circunferencia se dice que ésta es su **diámetro**. 
+
+
+# Requerimientos
+
+Construya un programa, orientado a objetos, que pidiendo las coordenadas del punto céntrico por teclado nos determine si la recta que intercepta a la circunferencia es su diámetro. Los puntos de la recta deben de ser generados de manera aleatoria. 
+
+
+- Una clase Punto:
+  - [x] cuyo método constructor recibe los parámetros de tipo double para setear sus atributos que son private y de tipo int.
+  - [x] Un getter para cada atributo y un setter también.
+  - [x] Un método toString() para mostrar los valores de los atributos a través de sus getter.
+  - [x] El método toString debe mostrar la información de la  forma (x,y), es decir, deben de aparecer entre paréntesis y separados por una coma “,”.
+ 
+No habrá algo más en esta clase.
+
+- Una clase Circunferencia:
+  - [ ] que tendrá un atributo private del tipo **Punto** en la cual habrá dos constructores:
+    - Uno que recibe el parámetro para setear su atributo y el otro constructor no ha de recibir parámetro alguno.
+  - [ ] Ha de haber un getter y un setter.
+  - [ ] No habrá algo más en esta clase.
+
+- Una clase llamada **Recta**:
+  - [ ] la cual tendrá los atributos private del tipo **Punto** pertinentes.
+  - [ ] Tendrá sus setter y  getter y un método toString para mostrar los atributos de la forma (x,y) (x,y) y debe de hacer uso de los getter.
+  - [ ] No habrá algo más en esta clase.
+
+- Una clase llamada **Diámetro**:
+  - [ ] la cual tiene tres atributos private.
+    - Uno del tipo Circunferencia,
+    - otro del tipo Recta
+    - otro del tipo Punto.
+  - [ ] Su método constructor recibirá los parámetros pertinentes para setear el atributo de tipo Circunferencia y el de tipo Recta empleando los setter que serán private.
+  - [ ] Habrá métodos getter, pero no para el atributo del tipo Punto, y un método private que no recibe parámetro y es de tipo booleano que determinará si la Recta es el diámetro de la circunferencia.
+  - [ ] El atributo de tipo Punto ha de ser seteado a partir de la recta calculando su punto medio.
+
+- El programa solo debe de terminar la ejecución cuando se determine que la recta es el diámetro de la circunferencia. Este estará generando los puntos de manera aleatoria esperando a que se llegue a determinar que la recta es el diámetro de la circunferencia.
+  
+- Se precisa mostrar siempre en la pantalla los puntos de la recta y el punto céntrico de la circunferencia, así como también el punto de la recta que puede que se intercepte o no con el punto céntrico de la circunferencia el cual es el punto encontrado con la fórmula.
+
+- Se ha de indicar siempre si la recta es o no el diámetro de la circunferencia en cada intento.
+
+# Investigar.
+
+- Fórmula del punto medio.
+
+- El método toString y cómo se usa de manera adecuada.
+
+# Observaciones
+
+- Cumplimiento de los requerimientos.
+- Conectividad.
+- Orientación a Objetos.
+- Lógica empleada.
+- Funcionalidad.
+- Reutilización del código.
+- Uso de recursos.
+- Redundancias.
+- No se pongan a utilizar arrays que ese tema no lo hemos dado.
+- Implementación de la clase principal.
+
+# Ponderación
+|Descripcion|Puntaje|
+|-----|-----:|
+|Implementaciones del método toString.|1|
+|Implementación de la fórmula del punto medio.|2|
+|Determinar si la recta es el diámetro de la circunferencia.|1|
+|Determinar si la recta es el diámetro de la circunferencia.|1|
+|Finalizar el programa dado el requerimiento.|1|
+|Clase Circunferencia.|1|
+|Clase Recta.|1|
+|Clase Diámetro. |1|
+
+# Notas Adicionales
+> SOLO QUIERO UN ARCHIVO POR GRUPO.
+>
+> Recuerden subir un solo archivo de notepad con las matriculas y nombres de los integrantes.
+>
+> Deben colocar cada archivo de clases del eclipse en un solo archivo de notepad o txt. Esto Lo hacen copiando y pegando el contenido de cada clase.
