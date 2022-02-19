@@ -8,13 +8,11 @@ public class Punto {
   }
   
   public int getX() {
-	  return x;
-	  
+	  return this.x;
   }
   
   public int getY() {
-	  return y;
-	  
+	  return this.y;
   }
 
 	public void setX(int x) {
@@ -27,9 +25,7 @@ public class Punto {
 	  
 	@Override
   public String toString(){
-
 		return String.format("(%d,%d)", getX(), getY());	  
 	  //return "(" + getX() + "," + getY() + ")";
-		  
   }
 }

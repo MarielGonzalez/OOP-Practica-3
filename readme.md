@@ -10,7 +10,7 @@
 Construya un programa, orientado a objetos, que pidiendo las coordenadas del punto céntrico por teclado nos determine si la recta que intercepta a la circunferencia es su diámetro. Los puntos de la recta deben de ser generados de manera aleatoria. 
 
 
-- Una clase Punto:
+- ## Una clase Punto:
   - [x] cuyo método constructor recibe los parámetros de tipo double para setear sus atributos que son private y de tipo int.
   - [x] Un getter para cada atributo y un setter también.
   - [x] Un método toString() para mostrar los valores de los atributos a través de sus getter.
@@ -18,18 +18,21 @@ Construya un programa, orientado a objetos, que pidiendo las coordenadas del pun
  
 No habrá algo más en esta clase.
 
-- Una clase Circunferencia:
-  - [ ] que tendrá un atributo private del tipo **Punto** en la cual habrá dos constructores:
-    - Uno que recibe el parámetro para setear su atributo y el otro constructor no ha de recibir parámetro alguno.
-  - [ ] Ha de haber un getter y un setter.
-  - [ ] No habrá algo más en esta clase.
+- ## Una clase Circunferencia:
+  - [x] Tendrá un atributo private del tipo **Punto**
+  - [x] Habrán dos constructores:
+    - [x] Uno que recibe el parámetro para setear su atributo
+    - [x] El otro constructor no ha de recibir parámetro alguno.
+  - [x] Ha de haber un getter y un setter.
 
-- Una clase llamada **Recta**:
+No habrá algo más en esta clase.
+
+- ## Una clase llamada **Recta**:
   - [ ] la cual tendrá los atributos private del tipo **Punto** pertinentes.
   - [ ] Tendrá sus setter y  getter y un método toString para mostrar los atributos de la forma (x,y) (x,y) y debe de hacer uso de los getter.
   - [ ] No habrá algo más en esta clase.
 
-- Una clase llamada **Diámetro**:
+- ## Una clase llamada **Diámetro**:
   - [ ] la cual tiene tres atributos private.
     - Uno del tipo Circunferencia,
     - otro del tipo Recta
@@ -38,12 +41,13 @@ No habrá algo más en esta clase.
   - [ ] Habrá métodos getter, pero no para el atributo del tipo Punto, y un método private que no recibe parámetro y es de tipo booleano que determinará si la Recta es el diámetro de la circunferencia.
   - [ ] El atributo de tipo Punto ha de ser seteado a partir de la recta calculando su punto medio.
 
+
 - El programa solo debe de terminar la ejecución cuando se determine que la recta es el diámetro de la circunferencia. Este estará generando los puntos de manera aleatoria esperando a que se llegue a determinar que la recta es el diámetro de la circunferencia.
   
 - Se precisa mostrar siempre en la pantalla los puntos de la recta y el punto céntrico de la circunferencia, así como también el punto de la recta que puede que se intercepte o no con el punto céntrico de la circunferencia el cual es el punto encontrado con la fórmula.
 
 - Se ha de indicar siempre si la recta es o no el diámetro de la circunferencia en cada intento.
-
+- 
 # Investigar.
 
 - Fórmula del punto medio.
