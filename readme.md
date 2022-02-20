@@ -28,15 +28,16 @@ No habrá algo más en esta clase.
 No habrá algo más en esta clase.
 
 - ## Una clase llamada **Recta**:
-  - [ ] la cual tendrá los atributos private del tipo **Punto** pertinentes.
-  - [ ] Tendrá sus setter y  getter y un método toString para mostrar los atributos de la forma (x,y) (x,y) y debe de hacer uso de los getter.
-  - [ ] No habrá algo más en esta clase.
+  - [x] la cual tendrá los atributos private del tipo **Punto** pertinentes.
+  - [x] Tendrá sus setter y  getter y un método toString para mostrar los atributos de la forma (x,y) (x,y) y debe de hacer uso de los getter.
+
+No habrá algo más en esta clase.
 
 - ## Una clase llamada **Diámetro**:
   - [ ] la cual tiene tres atributos private.
-    - Uno del tipo Circunferencia,
-    - otro del tipo Recta
-    - otro del tipo Punto.
+    - [ ] Uno del tipo Circunferencia,
+    - [ ] Uno del tipo Recta
+    - [ ] Uno del tipo Punto.
   - [ ] Su método constructor recibirá los parámetros pertinentes para setear el atributo de tipo Circunferencia y el de tipo Recta empleando los setter que serán private.
   - [ ] Habrá métodos getter, pero no para el atributo del tipo Punto, y un método private que no recibe parámetro y es de tipo booleano que determinará si la Recta es el diámetro de la circunferencia.
   - [ ] El atributo de tipo Punto ha de ser seteado a partir de la recta calculando su punto medio.
@@ -47,7 +48,7 @@ No habrá algo más en esta clase.
 - Se precisa mostrar siempre en la pantalla los puntos de la recta y el punto céntrico de la circunferencia, así como también el punto de la recta que puede que se intercepte o no con el punto céntrico de la circunferencia el cual es el punto encontrado con la fórmula.
 
 - Se ha de indicar siempre si la recta es o no el diámetro de la circunferencia en cada intento.
-- 
+  
 # Investigar.
 
 - Fórmula del punto medio.

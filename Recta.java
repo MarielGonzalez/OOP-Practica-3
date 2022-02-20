@@ -22,5 +22,9 @@ public class Recta{
 	public void setPuntoB(Punto punto){
 		this.puntoB = punto;
 	}
+
+	public String toString(){
+		return String.format("%s%s", getPuntoA(), getPuntoB());
+	}
     
 }

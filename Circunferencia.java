@@ -1,4 +1,3 @@
-
 public class Circunferencia{
 	private Punto pun;
 
@@ -7,17 +6,16 @@ public class Circunferencia{
 
 	
 	public Circunferencia(Punto punt){
-		setCircunf(punt);
+		setPunto(punt);
 	}
 
 	//TODO: Renombrar
-	public void setCircunf(Punto p) {
+	public void setPunto(Punto p) {
 		this.pun= p;
-		
 	}
 	
 	//TODO: Renombrar
-	public Punto getCircunf() {
+	public Punto getPunto() {
 		return pun;
 		
 	}

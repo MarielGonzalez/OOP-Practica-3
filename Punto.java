@@ -2,7 +2,7 @@ public class Punto {
   private int x;
   private int y;
   
-  private Punto (double x, double y) {
+  public Punto (double x, double y) {
      this.x = (int) x;
      this.y = (int) y;
   }
